@@ -1,0 +1,60 @@
+.main-dashboard-container{
+    background-color: #282c34;
+    color: white;
+}
+
+.dashboard-header{
+    margin: auto;
+    text-align: center;
+    background-color: darkorchid;
+}
+
+.dashboard-body{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+}
+
+.col-header{
+    font-size: 22px;
+    padding-left: 10px !important;
+    color: floralwhite;
+    width:25%;
+
+}
+
+.padding-left{
+    padding-left: 10px !important;
+    width:25%;
+}
+
+.text-align-class{
+    text-align: center;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-pie{
+    display:flex;
+}
+
+.pie-1{
+    flex:5;
+}
+
+.pie-2{
+    flex:5;
+}
+.stats-label{
+    margin: auto;
+    text-align: center;
+}
