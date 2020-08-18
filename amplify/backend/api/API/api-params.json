@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "reactChatbotLambda",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "API",
+    "apiName": "API",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactChatbotLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-reactchatbot-dev-185737-authRole",
+        "unAuthRoleName": "amplify-reactchatbot-dev-185737-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactChatbotLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

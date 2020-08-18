@@ -27,6 +27,9 @@ import Notfound from "./notFound"
 import CandidateInfo from "./Candidate/candidateInfo";
 import CandidateForm from './Candidate/candidateForm';
 import 'semantic-ui-css/semantic.min.css'
+import Amplify from "aws-amplify";
+import awsExports from "./aws-exports";
+Amplify.configure(awsExports);
 
 const rootElement = document.getElementById("root");
 
